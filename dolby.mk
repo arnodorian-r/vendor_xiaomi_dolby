@@ -13,6 +13,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
     $(LOCAL_PATH)/media/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml
 
+PRODUCT_PACKAGES += \
+    XiaomiDolby
+
 # Properties
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.dolby.ds2.enabled=false \
