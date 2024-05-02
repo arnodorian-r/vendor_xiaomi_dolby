@@ -28,4 +28,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
 DEVICE_MANIFEST_FILE := \
     $(LOCAL_PATH)/vintf/manifest_dolby.xml
 
+# Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/dolby
+
 $(call inherit-product, vendor/xiaomi/dolby/dolby-vendor.mk)
