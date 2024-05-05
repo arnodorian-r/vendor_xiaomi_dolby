@@ -16,6 +16,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     XiaomiDolby
 
+# Dolby Vision
+SOONG_CONFIG_NAMESPACES += dolby_vision
+SOONG_CONFIG_dolby_vision += enabled
+SOONG_CONFIG_dolby_vision_enabled := true
+
 # Properties
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.dolby.ds2.enabled=false \
