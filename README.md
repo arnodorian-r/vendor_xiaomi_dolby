@@ -11,7 +11,7 @@ Taken from OnePlus 9R
 
 ```
 # Vendor Dolby
-$(call inherit-product, vendor/dolby/dolby.mk)
+$(call inherit-product, vendor/xiaomi/dolby/dolby.mk)
 ```
 
 3. Needing to change these in BoardConfig makefile of your device tree:
