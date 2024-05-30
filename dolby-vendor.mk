@@ -34,6 +34,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dolby/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0-impl.so \
     vendor/xiaomi/dolby/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so \
 
-PRODUCT_PACKAGES += \
-    DaxUI \
-    daxService \
